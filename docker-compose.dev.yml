@@ -20,7 +20,8 @@ services:
       - ./yarn.lock:/opt/yarn.lock
       - ./public/uploads:/opt/app/public/uploads
     ports:
-      - "1337:1337"
+      - 127.0.0.1:8000:1337
+
     networks:
       - strapi
     depends_on:
@@ -39,11 +40,11 @@ services:
     volumes:
       - strapi-data:/var/lib/postgresql/data/ #using a volume
       #- ./data:/var/lib/postgresql/data/ # if you want to use a bind folder
-
-    ports:
-      - "5431:5431"
     networks:
       - strapi
+
+    ports:
+      - 5432:5432
 
 volumes:
   strapi-data:
