@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_page_concepts_l_ists",
+  "info": {
+    "displayName": "conceptsLIst",
+    "icon": "layer"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
