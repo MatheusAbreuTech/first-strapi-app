@@ -45,6 +45,48 @@
       "type": "component",
       "repeatable": false,
       "component": "page.concepts"
+    },
+    "sectionModules": {
+      "displayName": "sectionModules",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-modules",
+      "required": true
+    },
+    "agenda": {
+      "displayName": "agenda",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.agenda",
+      "required": true
+    },
+    "pricingBox": {
+      "displayName": "pricingBox",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.pricing-box",
+      "required": true
+    },
+    "aboutUs": {
+      "displayName": "aboutUs",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.about-us",
+      "required": true
+    },
+    "reviews": {
+      "displayName": "reviews",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.reviews",
+      "required": true
+    },
+    "sectionFaq": {
+      "displayName": "sectionFaq",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-faq",
+      "required": true
     }
   }
 }
